@@ -8,6 +8,19 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<button id="openModal" onclick="toggleModal()">Open Modal</button>
+
+  <div class="modal" id="myModal" onclick="closeModal(event)">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close-modal" onclick="toggleModal()">&times;</button>
+        <h2 style="background-color: green;">Modal Header</h2>
+      </div>
+      <div class="modal-body">
+        <p>Modal Body Content</p>
+      </div>
+    </div>
+  </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
